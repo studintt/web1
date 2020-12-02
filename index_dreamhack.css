@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/*초기화*/
+* {
+    margin:0;
+    padding:0;
+}
+
+ul {list-style:none;}
+a {
+    text-decoration:none;
+    color:inherit; /*글자색상을 부모속성을 따라가는 속성*/
+}
+body {
+    font-size:16px;
+    font-family:"Arial", "sans-serif";
+    /* font:16px/1.5 "Arial","sans-serif"; */
+    color:#303030;
+}
+
+.layout {
+    width:1400px;
+    height:50px;
+    background-color:white;
+    margin:10px auto 20px ;
+}
+
+.layout .layout_logo {
+    width:50px;
+    height:50px;
+    box-sizing:border-box;
+    float:left;
+    margin:0 0 0 30px;
+}
+
+.layout img {
+    width:50px;
+    height:50px;
+    box-sizing:border-box;
+}
+
+.layout .layout_logo_text p{
+    display:block;
+    font-size:20px;
+    font-weight:800;
+    box-sizing:border-box;
+    float:left;
+    line-height:50px;
+    margin:0 0 0 10px;
+}
+.layout .layout_banner li {
+    display:block;
+    float:right;
+    line-height:50px;
+    margin:0 50px ;
+    font-size:14px;
+}
+
+.layout .layout_banner li:hover{
+    color:blue;
+}
+
+.mid {
+    width:1400px;
+    margin:0 auto;
+}
+.mid .mid_background{
+    width:280px;
+    height:500px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mid_background1 {background-image:url(../img/al1.jpg);}
+#mid_background2 {background-image:url(../img/al2.jpg);}
+#mid_background3 {background-image:url(../img/al3.jpg);}
+#mid_background4 {background-image:url(../img/al4.jpg);}
+#mid_background5 {background-image:url(../img/al5.jpg);}
+
+/*.mid .mid_right {
+    width:1400px;
+    height:400px;
+    float:right;
+    background-color:blue;
+}*/
+
+.bottom {
+    width:1400px;
+    height:300px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.bottom {
+    float:left;
+}
+
+.bottom .bottom_url {
+    width:400px;
+    height:250px;
+    margin:70px 0 0 200px;
+}
+
+.bottom .bottom_url img{
+    width:250px;
+    height:250px;
+}
